@@ -1,0 +1,12 @@
+{
+  "name": "My portfolio",
+  "short_name": "my-portfolio",
+  "scope": "/",
+  "start_url": "/",
+  "lang": "pt-BR",
+  "icons": [],
+  "theme_color": "#BB86FC",
+  "background_color": "#121212",
+  "display": "standalone",
+  "orientation": "portrait"
+}

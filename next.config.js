@@ -6,4 +6,7 @@ module.exports = withPWA({
     dest: 'public'
   },
   reactStrictMode: true,
+  images: {
+    domains: ['github.com'],
+  },
 })

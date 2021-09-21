@@ -7,6 +7,6 @@ module.exports = withPWA({
   },
   reactStrictMode: true,
   images: {
-    domains: ['github.com'],
+    domains: ['github.com', 'play-lh.googleusercontent.com'],
   },
 })

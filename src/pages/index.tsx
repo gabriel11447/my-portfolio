@@ -18,6 +18,7 @@ const Home: NextPage = () => {
             objectFit="cover"
             src="https://github.com/gabriel11447.png"
             alt="gabriel11447"
+            className={styles.photo}
           />
           <div className={styles.description}>
             <h1>Gabriel de Carvalho</h1>
@@ -26,6 +27,29 @@ const Home: NextPage = () => {
               React Native developer at PECEGE.
             </span>
           </div>
+        </section>
+        <section className={styles.skills}>
+          <h1>Skills</h1>
+          <span className={styles.skillList}>
+            <div className={styles.skill}></div>
+            <div className={styles.skill}></div>
+            <div className={styles.skill}></div>
+            <div className={styles.skill}></div>
+          </span>
+        </section>
+        <section className={styles.projects}>
+          <h1>Projects</h1>
+          <span className={styles.projectsContainer}>
+            <div className={styles.card}>
+              <Image
+                height="318px"
+                width="318px"
+                objectFit="cover"
+                src="https://play-lh.googleusercontent.com/mSSKcCbyWSHVsZGkh10A8A48ZNy1DGloA5Y7S8le6TTMIr2gE-NOTmK_nyh3bmNHGQ=s180-rw"
+                alt="oráculo"
+              />
+            </div>
+          </span>
         </section>
       </main>
     </>

@@ -39,6 +39,16 @@
   width: 8rem;
   border: 1px solid var(--blue-500);
   border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--gray);
+
+  transition: color 0.2s;
+
+  &:hover {
+    color: var(--red);
+  }
 }
 
 .skill:not(:first-child) {

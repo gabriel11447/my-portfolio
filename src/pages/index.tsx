@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 import { SiTypescript, SiJavascript, SiReact, SiFlutter } from "react-icons/si";
 
 import styles from "./home.module.scss";
@@ -15,8 +14,8 @@ const Home: NextPage = () => {
       <main>
         <section className={styles.about}>
           <Image
-            height="100%"
-            width="100%"
+            height={200}
+            width={200}
             objectFit="cover"
             src="https://github.com/gabriel11447.png"
             alt="gabriel11447"
@@ -25,8 +24,8 @@ const Home: NextPage = () => {
           <div className={styles.description}>
             <h1>Gabriel de Carvalho</h1>
             <span>
-              I am a Computer Science undergraduate student at UNESP and intern
-              React Native developer at PECEGE.
+              I am a Computer Science undergraduate student at UNESP and React
+              Native developer.
             </span>
           </div>
         </section>
@@ -59,8 +58,8 @@ const Home: NextPage = () => {
               <Image
                 height="318px"
                 width="318px"
-                objectFit="cover"
-                src="https://play-lh.googleusercontent.com/mSSKcCbyWSHVsZGkh10A8A48ZNy1DGloA5Y7S8le6TTMIr2gE-NOTmK_nyh3bmNHGQ=s180-rw"
+                objectFit="contain"
+                src="/images/oraculo.svg"
                 alt="oráculo"
               />
             </a>
@@ -73,8 +72,8 @@ const Home: NextPage = () => {
               <Image
                 height="318px"
                 width="318px"
-                objectFit="cover"
-                src="https://avatarfiles.alphacoders.com/124/thumb-124700.png"
+                objectFit="contain"
+                src="/images/pokedex.png"
                 alt="pokedéx"
               />
             </a>
@@ -87,8 +86,8 @@ const Home: NextPage = () => {
               <Image
                 height="318px"
                 width="318px"
-                objectFit="cover"
-                src="https://lh5.googleusercontent.com/N3big8YZ8CJ8EGXcYN9_T4l6uDZj5TGU6KojLiowkBLA1b07QTxGCfQKj3W7BqnNMNwxQIzkgOpIizZBPm5E=w1920-h973"
+                objectFit="contain"
+                src="/images/devquiz.png"
                 alt="dev quiz"
               />
             </a>

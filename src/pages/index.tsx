@@ -13,14 +13,16 @@ const Home: NextPage = () => {
       </Head>
       <main>
         <section className={styles.about}>
-          <Image
-            height={200}
-            width={200}
-            objectFit="cover"
-            src="https://github.com/gabriel11447.png"
-            alt="gabriel11447"
-            className={styles.photo}
-          />
+          <div className={styles.photo}>
+            <Image
+              height={200}
+              width={200}
+              layout="responsive"
+              objectFit="cover"
+              src="/images/photo.jfif"
+              alt="gabriel11447"
+            />
+          </div>
           <div className={styles.description}>
             <h1>Gabriel de Carvalho</h1>
             <span>

@@ -91,23 +91,6 @@
   grid-row-gap: 1.4rem;
 }
 
-.card {
-  background-color: var(--blue-700);
-  height: 20rem;
-  width: 20rem;
-  border: 1px solid var(--blue-500);
-  border-radius: 8px;
-  padding: 1rem;
-  overflow: hidden;
-  transition: color 0.2s;
-
-  &:hover {
-    background-color: var(--blue-500);
-
-    transform: scale(1.02);
-  }
-}
-
 @media screen and (max-width: 992px) {
   .photo {
     height: 8rem;

@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import { SiTypescript, SiJavascript, SiReact, SiFlutter } from "react-icons/si";
+import Card from "../components/Card";
 
 import styles from "./home.module.scss";
 
@@ -51,48 +52,21 @@ const Home: NextPage = () => {
         <section className={styles.projects}>
           <h1>Projects</h1>
           <span className={styles.projectContainer}>
-            <a
-              className={styles.card}
-              href="https://play.google.com/store/apps/details?id=com.oraculolol"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Image
-                height="318px"
-                width="318px"
-                objectFit="contain"
-                src="/images/oraculo.svg"
-                alt="oráculo"
-              />
-            </a>
-            <a
-              className={styles.card}
-              href="https://pcg-pokedex.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Image
-                height="318px"
-                width="318px"
-                objectFit="contain"
-                src="/images/pokedex.png"
-                alt="pokedéx"
-              />
-            </a>
-            <a
-              className={styles.card}
-              href="https://github.com/gabriel11447/dev_quiz"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Image
-                height="318px"
-                width="318px"
-                objectFit="contain"
-                src="/images/devquiz.png"
-                alt="dev quiz"
-              />
-            </a>
+            <Card
+              link="https://play.google.com/store/apps/details?id=com.oraculolol"
+              image="/images/oraculo.svg"
+              altImage="oráculo"
+            />
+            <Card
+              link="https://pcg-pokedex.netlify.app/"
+              image="/images/pokedex.png"
+              altImage="pokedéx"
+            />
+            <Card
+              link="https://github.com/gabriel11447/dev_quiz"
+              image="/images/devquiz.png"
+              altImage="dev quiz"
+            />
           </span>
         </section>
       </main>

@@ -1,11 +1,21 @@
 {
-  "name": "My portfolio",
-  "short_name": "my-portfolio",
-  "scope": "/",
+  "name": "gabriel11447",
+  "short_name": "gabriel11447",
   "start_url": "/",
   "lang": "pt-BR",
-  "icons": [],
-  "theme_color": "#BB86FC",
+  "icons": [
+    {
+      "src": "/images/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1d2766",
   "background_color": "#121212",
   "display": "standalone",
   "orientation": "portrait"

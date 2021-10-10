@@ -53,19 +53,28 @@ const Home: NextPage = () => {
           <h1>Projects</h1>
           <span className={styles.projectContainer}>
             <Card
+              name="Oráculo"
               link="https://play.google.com/store/apps/details?id=com.oraculolol"
               image="/images/oraculo.svg"
               altImage="oráculo"
             />
             <Card
+              name="Pokédex"
               link="https://pcg-pokedex.netlify.app/"
               image="/images/pokedex.png"
-              altImage="pokedéx"
+              altImage="pokédex"
             />
             <Card
+              name="dev.quiz"
               link="https://github.com/gabriel11447/dev_quiz"
               image="/images/devquiz.png"
               altImage="dev quiz"
+            />
+            <Card
+              name="RentX"
+              link="https://github.com/gabriel11447/rentx"
+              image="/images/rentx.png"
+              altImage="rentx"
             />
           </span>
         </section>

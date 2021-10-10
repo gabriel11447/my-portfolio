@@ -3,12 +3,13 @@ import Image from "next/image";
 import styles from "./styles.module.scss";
 
 interface CardProps {
+  name: string;
   link: string;
   image: string;
   altImage: string;
 }
 
-const Card = ({ link, image, altImage }: CardProps) => {
+const Card = ({ name, link, image, altImage }: CardProps) => {
   return (
     <a className={styles.card} href={link} target="_blank" rel="noreferrer">
       <Image
@@ -18,6 +19,7 @@ const Card = ({ link, image, altImage }: CardProps) => {
         src={image}
         alt={altImage}
       />
+      <div className={styles.title}>{name}</div>
     </a>
   );
 };

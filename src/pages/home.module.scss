@@ -44,6 +44,16 @@
   align-items: center;
 }
 
+.skillDescription {
+  display: flex;
+  flex: 1;
+  background-color: var(--blue-500);
+  border: 2px solid var(--blue-700);
+  height: 3rem;
+  padding: 1rem;
+  margin: 1rem 20% 0;
+}
+
 .skill {
   background-color: var(--blue-700);
   height: 8rem;
@@ -69,6 +79,24 @@
 
 .skill:not(:first-child) {
   margin-left: 1.4rem;
+}
+
+.activeSkill {
+  background-color: var(--blue-900);
+  height: 8rem;
+  width: 8rem;
+  border: 1px solid var(--blue-500);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--red);
+  cursor: pointer;
+  transform: scale(1.05);
+
+  &:not(:first-child) {
+    margin-left: 1.4rem;
+  }
 }
 
 .projects {
@@ -134,6 +162,28 @@
 
   .skill:not(:first-child) {
     margin-left: 0.8rem;
+  }
+
+  .activeSkill {
+    background-color: var(--blue-900);
+    height: 4rem;
+    width: 4rem;
+    border: 1px solid var(--blue-500);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--red);
+    transform: scale(1.05);
+
+    &:not(:first-child) {
+      margin-left: 0.8rem;
+    }
+  }
+
+  .activeSkill svg {
+    height: 1.4rem;
+    width: 1.4rem;
   }
 }
 

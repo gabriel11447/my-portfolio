@@ -10,10 +10,10 @@ import styles from "./home.module.scss";
 const DESCRIPTIONS = [
   {
     name: "React",
-    description: "3 years of experience, currently working with React Native.",
+    description: "4 years of experience, currently working with React Native.",
   },
-  { name: "TypeScript", description: "2 years of experience." },
-  { name: "JavaScript", description: "3 years of experience." },
+  { name: "TypeScript", description: "3 years of experience." },
+  { name: "JavaScript", description: "4 years of experience." },
   {
     name: "Flutter",
     description:
@@ -57,8 +57,7 @@ const Home: NextPage = () => {
           <div className={styles.description}>
             <h1>Gabriel de Carvalho</h1>
             <span>
-              I am a Computer Science undergraduate student at UNESP and React
-              Native developer.
+              I am a Computer Scientist by UNESP and React Native developer.
             </span>
           </div>
         </section>
